@@ -4,8 +4,10 @@ const address = @import("address.zig");
 const T_P2PKH = "t1KzZ5n2TPEGYXTZ3WYGL1AYEumEQaRoHaL";
 const T_P2SH = "t3JZcvsuaXE6ygokL4XUiZSTrQBUoPYFnXJ";
 const ZS_1 = "zs1z7rejlpsa98s2rrrfkwmaxu53e4ue0ulcrw0h4x5g8jl04tak0d3mm47vdtahatqrlkngh9slya";
-const UA_1 = "u1l9f0l4348negsncgr9pxd9d3qaxagmqv3lnexcplmufpq7muffvfaue6ksevfvd7wrz7xrvn95rc5zjkyes5lg4vdmkz6pvszl7dz0r5ltqtqfqkxrcexstl7lf3tzl8x7xnqhh87xyufvgeu72vvgfr3u7l9d7cxrfxzyvuezd8hzxwfhtn8hrpkfwq25yl6qfzls7awtqejhc3fmgcltvnrk0r";
-const UA_TESTNET = "utest10ne56d9j9rf8j0a7cq8uyfgxhywhthfegz6qkml7c9yxhm785fxv8fwnppfuaujnxglz7lq9";
+/// From zcash-test-vectors `test-vectors/json/unified_address.json` (account 0, diversifier index 0).
+const UA_1 = "u1l8xunezsvhq8fgzfl7404m450nwnd76zshscn6nfys7vyz2ywyh4cc5daaq0c7q2su5lqfh23sp7fkf3kt27ve5948mzpfdvckzaect2jtte308mkwlycj2u0eac077wu70vqcetkxf";
+/// Valid `utest` UA produced by this library (Sapling-only receiver).
+const UA_TESTNET = "utest15t0mmwzmc3jzl2hms7nem630wkm397tft82afwsl30zzxdxcrnjj9rg4e0uf2rusk0r9jjh00gtkxs7amcz385qqhe6c44rlqyhmwhme";
 test "integration vectors decode encode network typename" {
     const vectors = [_]struct {
         s: []const u8,

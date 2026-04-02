@@ -5,7 +5,7 @@ pub fn main() !void {
     const inputs = [_][]const u8{
         "t3JZcvsuaXE6ygokL4XUiZSTrQBUoPYFnXJ",
         "zs1z7rejlpsa98s2rrrfkwmaxu53e4ue0ulcrw0h4x5g8jl04tak0d3mm47vdtahatqrlkngh9slya",
-        "u1l9f0l4348negsncgr9pxd9d3qaxagmqv3lnexcplmufpq7muffvfaue6ksevfvd7wrz7xrvn95rc5zjkyes5lg4vdmkz6pvszl7dz0r5ltqtqfqkxrcexstl7lf3tzl8x7xnqhh87xyufvgeu72vvgfr3u7l9d7cxrfxzyvuezd8hzxwfhtn8hrpkfwq25yl6qfzls7awtqejhc3fmgcltvnrk0r",
+        "u1l8xunezsvhq8fgzfl7404m450nwnd76zshscn6nfys7vyz2ywyh4cc5daaq0c7q2su5lqfh23sp7fkf3kt27ve5948mzpfdvckzaect2jtte308mkwlycj2u0eac077wu70vqcetkxf",
     };
 
     const stdout = std.io.getStdOut().writer();

@@ -56,7 +56,7 @@ const s = try zcash.sapling.SaplingAddress.decode("zs1z7rejlpsa98s2rrrfkwmaxu53e
 ### Unified address
 
 ```zig
-const ua = try zcash.unified.UnifiedAddress.decode(std.heap.page_allocator, "utest10ne56d9j9rf8j0a7cq8uyfgxhywhthfegz6qkml7c9yxhm785fxv8fwnppfuaujnxglz7lq9");
+const ua = try zcash.unified.UnifiedAddress.decode(std.heap.page_allocator, "utest15t0mmwzmc3jzl2hms7nem630wkm397tft82afwsl30zzxdxcrnjj9rg4e0uf2rusk0r9jjh00gtkxs7amcz385qqhe6c44rlqyhmwhme");
 ```
 
 ## Address Type Reference
